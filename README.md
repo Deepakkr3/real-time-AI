@@ -36,3 +36,8 @@ voice-to-gemini/
 │   └── package.json
 │
 └── README.md
+
+2️⃣ Backend Setup (Node + Express)
+cd backend
+npm install
+
