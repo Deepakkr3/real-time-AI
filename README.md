@@ -41,3 +41,31 @@ voice-to-gemini/
 cd backend
 npm install
 
+Create a .env file inside backend/:
+PORT=5000
+GEMINI_API_KEY=your_gemini_api_key_here
+
+
+Start the backend:
+npm start
+
+👉 Server runs at: http://localhost:5000
+
+3️⃣ Frontend Setup (React + Vite)
+cd frontend
+npm install
+npm run dev
+
+
+.
+
+## 📌 Future Enhancements
+
+- 🔊 Add AI Text-to-Speech playback
+
+- 💾 Store chat history in MongoDB/Postgres
+
+- 🎨 Advanced UI with Tailwind/Material UI
+
+- ☁️ Deployment on Vercel (frontend) + Render/Heroku (backend)
+
